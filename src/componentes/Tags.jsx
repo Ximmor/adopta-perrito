@@ -1,9 +1,12 @@
-import Badge from 'react-bootstrap/Badge';
+import React from "react";
+import Button from "react-bootstrap/Button";
 
 const Tags = ({ color, raza }) => {
   return (
-    <div>
-      <Badge bg={color}>{raza}</Badge>
+    <div className="d-grid mt-auto">
+      <Button href="#" variant={color} size="m">
+        {raza}
+      </Button>
     </div>
   );
 };
