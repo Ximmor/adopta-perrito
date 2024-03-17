@@ -1,0 +1,3 @@
+# jekyll-gh-pages.yml
+jekyll_plugins:
+  - jekyll-paginate
